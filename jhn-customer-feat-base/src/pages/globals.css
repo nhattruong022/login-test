@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Base */
+    --base-white: 255, 255, 255;
+    --base-black: 25, 24, 24;
+
+    --primary-100: 216, 218, 214;
+    --primary-200: 178, 182, 173;
+    --primary-300: 139, 145, 132;
+    --primary-400: 101, 109, 91;
+    --primary-500: 62, 72, 50;
+    --primary-600: 50, 58, 40;
+    --primary-700: 31, 36, 25;
+    --primary-800: 19, 22, 15;
+    --primary-900: 6, 7, 5;
+
+    --grey-100: 228, 228, 228;
+    --grey-200: 202, 202, 202;
+    --grey-300: 175, 175, 175;
+    --grey-400: 149, 149, 149;
+    --grey-500: 122, 122, 122;
+    --grey-600: 98, 98, 98;
+    --grey-700: 73, 73, 73;
+    --grey-800: 49, 49, 49;
+    --grey-900: 24, 24, 24;
+
+    --warning-100: 255, 244, 203;
+    --warning-200: 254, 230, 155;
+    --warning-300: 253, 213, 109;
+    --warning-400: 252, 196, 78;
+    --warning-500: 251, 169, 29;
+    --warning-600: 207, 130, 19;
+    --warning-700: 165, 96, 13;
+    --warning-800: 126, 68, 8;
+    --warning-900: 100, 49, 5;
+
+    --danger-100: 205, 253, 198;
+    --danger-200: 158, 251, 152;
+    --danger-300: 83, 216, 96;
+    --danger-400: 83, 216, 96;
+    --danger-500: 52, 188, 70;
+    --danger-600: 41, 156, 70;
+    --danger-700: 33, 125, 67;
+    --danger-800: 25, 96, 61;
+    --danger-900: 19, 77, 56;
+
+    --success-100: 205, 253, 198;
+    --success-200: 158, 251, 152;
+    --success-300: 83, 216, 96;
+    --success-400: 83, 216, 96;
+    --success-500: 52, 188, 70;
+    --success-600: 41, 156, 70;
+    --success-700: 33, 125, 67;
+    --success-800: 25, 96, 61;
+    --success-900: 19, 77, 56;
+
+    --card-radius: 0.25rem;
+
+    --label-white: #f4f2ff;
+  }
+}
+
+input,
+textarea {
+  outline: none;
+  border: none;
+}

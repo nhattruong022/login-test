@@ -1,0 +1,11 @@
+{
+  "workbench.tree.indent": 20,
+  "editor.formatOnSave": true,
+  "eslint.options": {
+    "rulePaths": ["./eslint-rules"]
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll.eslint": "explicit"
+  }
+}
